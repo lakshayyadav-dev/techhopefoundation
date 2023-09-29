@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    gap: 20rem;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.company > h1 {
+    font-size: 24px;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-between !important;
+}
+.navlinks a:not(.donateButton) {
+    transition: 0.1s ease all;
+}
+.navlinks a:hover:not(.donateButton) {
+    color: #5580E9;
+    transform: scale(1.05);
+}
+
+
+.donateButton {
+    background-color: #5580E9;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: solid 2px #5580E9;
+    font-weight: bold;
+    
+    transition: 0.1s ease all;
+}
+.donateButton:hover {
+    background-color: transparent;
+    color: #5580E9;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 5px;
+
+    display: none;
+}
+
+.hamburger div {
+    width: 35px;
+    height: 3px;
+    background-color: #000;
+    transition: 0.3s ease all;
+}
+
+.hamburger:hover div {
+    background-color: #5580E9;
+    width: 45px;
+}
+
+@media screen and (max-width: 1180px) {
+    .container {
+        gap: 10rem;
+    }
+    
+}
+@media screen and (max-width: 960px) {
+    .container {
+        padding: 1rem;
+    }
+    .navlinks {
+        display: none;
+    }
+    .hamburger {
+        display: flex;
+    }
+}
+
+
