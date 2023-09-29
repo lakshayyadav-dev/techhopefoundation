@@ -61,6 +61,10 @@
     
 }
 @media screen and (max-width: 960px) {
+    .company {
+        gap: 5px;
+        justify-content: flex-start;        
+    }
     .container {
         padding: 1rem;
         gap: 0rem;
@@ -70,12 +74,20 @@
     }
     .hamburger {
         display: flex;
+        gap: 3px;
+    }
+
+    .hamburger div {
+        height: 2px;
     }
 }
 
 @media screen and (max-width: 760px) {
     .company > h1 {
-        font-size: 18px;
+        font-size: 16px;
+    }
+    .logo {
+        width: 15%;
     }
 }
 
