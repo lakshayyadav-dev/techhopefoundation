@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import styles from "./Navbar.module.css";
 import logo from "../../../public/static/images/Logo.svg";
+import BlueButton from "../BlueButton";
 
 const Navbar = () => {
 	return (
@@ -16,7 +17,7 @@ const Navbar = () => {
                 <a href="#">mission</a>
                 <a href="#">about us</a>
                 <a href="#">contact</a>
-                <a href="#" className={styles.donateButton}>donate</a>
+                <BlueButton text={"donate"}/>
             </div>
 
             <div className={styles.hamburger}>

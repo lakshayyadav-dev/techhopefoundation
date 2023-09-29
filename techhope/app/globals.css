@@ -14,3 +14,23 @@ a {
     text-decoration: none;
     color: #000;
 }
+
+section {
+    padding: 0 2rem;
+}
+
+.btn {
+    background-color: #5580E9;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: solid 2px #5580E9;
+    font-weight: bold;
+    text-align: center;
+    
+    transition: 0.1s ease all;
+}
+.btn:hover {
+    background-color: transparent;
+    color: #5580E9;
+}

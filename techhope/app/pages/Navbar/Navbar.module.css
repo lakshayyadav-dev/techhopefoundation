@@ -1,7 +1,8 @@
 .container {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 2rem;
+    padding: 0rem 2rem;
+    height: 15vh;
     gap: 20rem;
 }
 
@@ -29,21 +30,6 @@
     transform: scale(1.05);
 }
 
-
-.donateButton {
-    background-color: #5580E9;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    border-radius: 10px;
-    border: solid 2px #5580E9;
-    font-weight: bold;
-    
-    transition: 0.1s ease all;
-}
-.donateButton:hover {
-    background-color: transparent;
-    color: #5580E9;
-}
 
 .hamburger {
     display: flex;
@@ -77,6 +63,7 @@
 @media screen and (max-width: 960px) {
     .container {
         padding: 1rem;
+        gap: 0rem;
     }
     .navlinks {
         display: none;
@@ -86,4 +73,9 @@
     }
 }
 
+@media screen and (max-width: 760px) {
+    .company > h1 {
+        font-size: 18px;
+    }
+}
 
