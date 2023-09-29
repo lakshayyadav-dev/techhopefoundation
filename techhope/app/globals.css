@@ -30,11 +30,12 @@ section {
 .btn {
     background-color: #5580E9;
     color: #fff;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.5rem;
     border-radius: 10px;
     border: solid 2px #5580E9;
     font-weight: bold;
     text-align: center;
+    font-size: inherit;
     
     transition: 0.1s ease all;
 }

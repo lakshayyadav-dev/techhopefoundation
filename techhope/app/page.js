@@ -3,6 +3,7 @@ import styles from './page.module.css'
 import Hero from "./pages/Hero/Hero";
 import Navbar from "./pages/Navbar/Navbar";
 import AboutFoundation from "./pages/AboutFoundation/AboutFoundation";
+import DonationCTA from "./pages/DonationCTA/DonationCTA";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <Navbar />
         <Hero />
         <AboutFoundation />
+        <DonationCTA />
     </main>
   )
 }

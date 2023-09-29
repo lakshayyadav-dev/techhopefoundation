@@ -1,8 +1,8 @@
 import React from 'react'
 
-const BlueButton = ({text}) => {
+const BlueButton = ({text, className}) => {
   return (
-        <a href="#" className="btn">{text}</a>
+        <a href="#" className={`btn ${className}`}>{text}</a>
   )
 }
 

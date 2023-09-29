@@ -19,7 +19,7 @@ const Hero = () => {
 					with the digital divide of India, we aim to create a more inclusive society.
 				</p>
 
-                <BlueButton text={"Donate Now"} />
+                <BlueButton text={"Donate Now"} className={styles.btn}/>
 			</div>
 
             <div className={styles.image}>
