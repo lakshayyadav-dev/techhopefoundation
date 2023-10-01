@@ -5,7 +5,7 @@ import about_foundation from "../../../public/static/images/about_foundation.jpg
 
 const AboutFoundation = () => {
 	return (
-		<section className={styles.container}>
+		<section className={styles.container} id="mission">
 			<div className={styles.image}>
 				<Image src={about_foundation} alt="about foundation" className={styles.imagePNG}/>
 			</div>

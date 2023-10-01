@@ -12,7 +12,7 @@ const TeamMember = ({ name, position }) => {
 
 const Team = () => {
 	return (
-		<section className={styles.container}>
+		<section className={styles.container} id="team">
 			<h1>The Team</h1>
 
 			<div className={styles.teamContainer}>

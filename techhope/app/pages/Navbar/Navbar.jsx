@@ -13,10 +13,10 @@ const Navbar = () => {
 			</div>
 
             <div className={styles.navlinks}>
-                <a href="#">home</a>
-                <a href="#">mission</a>
-                <a href="#">about us</a>
-                <a href="#">contact</a>
+                <a href="#hero">home</a>
+                <a href="#mission">mission</a>
+                <a href="#aboutus">about us</a>
+                <a href="#contact">contact</a>
                 <BlueButton text={"donate"}/>
             </div>
 

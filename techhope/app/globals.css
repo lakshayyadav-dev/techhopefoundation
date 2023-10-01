@@ -6,12 +6,18 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 7.5rem;
+}
+
 body {
     font-family: "Poppins", sans-serif;
 }
 
 section {
     margin-bottom: 7.5rem;
+    padding: 0 3rem;
 }
 
 a {
@@ -21,10 +27,6 @@ a {
 
 p {
     color: #3C3C3C;
-}
-
-section {
-    padding: 0 2rem;
 }
 
 h3,h4,h5,h6 {

@@ -6,7 +6,7 @@ import instagram from "../../../public/static/images/instagram.svg";
 
 const Contact = () => {
 	return (
-		<section className={styles.container}>
+		<section className={styles.container} id="contact">
 			<h1 className={styles.title}>Stay Connected.</h1>
 
 			<div className={styles.information}>
