@@ -5,6 +5,7 @@ import Navbar from "./pages/Navbar/Navbar";
 import AboutFoundation from "./pages/AboutFoundation/AboutFoundation";
 import DonationCTA from "./pages/DonationCTA/DonationCTA";
 import AboutUs from "./pages/AboutUs/AboutUs";
+import Team from "./pages/Team/Team";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <AboutFoundation />
         <DonationCTA />
         <AboutUs />
+        <Team />
     </main>
   )
 }

@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.teamContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+.teamMember {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.teamMember::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #434343;
+    margin: 1rem 0;
+}
+
+
+.teamMember h2 {
+    font-weight: 500;
+}
+
+@media screen and (max-width: 960px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    .teamMember h2 {
+        font-size: 1rem;
+    }
+    .teamMember p {
+        font-size: 14px;
+    }
+
+    .teamMember {
+        width: 100vw;
+    }
+}
