@@ -4,6 +4,7 @@ import Hero from "./pages/Hero/Hero";
 import Navbar from "./pages/Navbar/Navbar";
 import AboutFoundation from "./pages/AboutFoundation/AboutFoundation";
 import DonationCTA from "./pages/DonationCTA/DonationCTA";
+import AboutUs from "./pages/AboutUs/AboutUs";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Hero />
         <AboutFoundation />
         <DonationCTA />
+        <AboutUs />
     </main>
   )
 }

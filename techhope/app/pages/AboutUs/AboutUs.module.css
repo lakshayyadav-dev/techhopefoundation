@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    line-height: 24px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.content div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+@media screen and (max-width: 960px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .content {
+        gap: 2rem;
+    }
+
+    .content p{
+        font-size: 14px;
+    }
+
+    .content h2 {
+        font-size: 28px;
+    }
+}

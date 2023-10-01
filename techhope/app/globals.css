@@ -27,6 +27,10 @@ section {
     padding: 0 2rem;
 }
 
+h3,h4,h5,h6 {
+    font-weight: 500;
+}
+
 .btn {
     background-color: #5580E9;
     color: #fff;

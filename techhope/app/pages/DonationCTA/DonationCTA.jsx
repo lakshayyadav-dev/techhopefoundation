@@ -14,7 +14,7 @@ const Stat = ({title, text}) => {
 const DonationCTA = () => {
 	return (
 		<section className={styles.container}>
-			<h1>Give a child Hope Today.</h1>
+			<h1>Give a child hope today.</h1>
 
             <div className={styles.stats}>
                 <Stat title={"75%"} text={"Of the rural population of india is digitally illiterate."}/>

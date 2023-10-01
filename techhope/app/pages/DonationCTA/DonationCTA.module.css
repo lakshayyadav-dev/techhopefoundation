@@ -5,7 +5,7 @@
 }
 
 .container > h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 500;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .stat h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 500;
     color: #5580E9;
 }
@@ -39,6 +39,10 @@
     .stats {
         flex-direction: column;
         gap: 5rem;
+    }
+
+    .container {
+        padding: 0 1rem;
     }
 }
 
