@@ -17,25 +17,13 @@ const AboutFoundation = () => {
                 
 				<div className={styles.paragraphs}>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat.
+                    We envision a future where every member of our community, regardless of their background or abilities, has equal access to technology. Our dream is to contribute to building a more inclusive society, where technology is a bridge rather than a barrier.
 					</p>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-						veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-						commodo consequat.
+                    Our mission is clear: to provide essential technology education to those who are technologically undereducated and individuals with disabilities. We believe that by empowering individuals with the knowledge and tools to harness technology, we can unlock a world of opportunities for personal growth and education.
 					</p>
                     <p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat.
+                    From conduction classes to hosting workshops and webinars to distributing devices and educational resources, we are on a constant mission to close the digital gap. Our activities are designed to not only impart technical knowledge but also inspire a love for learning and innovation.
 					</p>
 				</div>
 			</div>
