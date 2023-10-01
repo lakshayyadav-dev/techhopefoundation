@@ -7,6 +7,7 @@ import DonationCTA from "./pages/DonationCTA/DonationCTA";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import Team from "./pages/Team/Team";
 import Contact from "./pages/Contact/Contact";
+import Footer from "./pages/Footer/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <AboutUs />
         <Team />
         <Contact />
+        <Footer />
     </main>
   )
 }
