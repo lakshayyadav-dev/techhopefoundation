@@ -49,3 +49,46 @@ h3,h4,h5,h6 {
     background-color: transparent;
     color: #5580E9;
 }
+
+.donationPopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #5580E9;
+    padding: 2rem;
+    color: white;
+    width: 100%;
+    height: 101vh;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+
+    gap: 2rem;
+    text-align: center;
+}
+.donationPopup > p {
+    color: white;
+    font-size: 1.5rem;
+}
+.donationPopup > h1 {
+    font-weight: 500;
+}
+
+.closePopup {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    color: white;
+    cursor: pointer;
+    transform: scale(2);
+    transition: all 0.2s ease;
+}
+.closePopup:hover {
+    transform: scale(2.5);
+}
+
+
+.show {
+    display: flex !important;
+}

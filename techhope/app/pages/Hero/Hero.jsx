@@ -3,6 +3,7 @@ import styles from "./Hero.module.css";
 import Image from "next/image";
 import cover_image from "../../../public/static/images/cover_image.png"
 import BlueButton from "../BlueButton";
+import DonationPopup from "../DonationPopup";
 
 const Hero = () => {
 	return (
@@ -25,6 +26,8 @@ const Hero = () => {
             <div className={styles.image}>
                 <Image src={cover_image} alt="boy studying on computer" className={styles.coverImage}/>
             </div>
+
+            <DonationPopup />
 		</section>
 	);
 };

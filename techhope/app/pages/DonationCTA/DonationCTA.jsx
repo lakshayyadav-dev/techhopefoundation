@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./DonationCTA.module.css";
 import BlueButton from "../BlueButton";
+import DonationPopup from "../DonationPopup";
 
 const Stat = ({title, text}) => {
     return (
@@ -26,6 +27,8 @@ const DonationCTA = () => {
                 <BlueButton text={"Donate Now"} className={styles.btn}/>
                 <BlueButton text={"Volunteer"} className={styles.btn}/>
             </div>
+
+            <DonationPopup />
 		</section>
 	);
 };
