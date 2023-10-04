@@ -22,7 +22,7 @@ const Navbar = () => {
 				<BlueButton text={"donate"} className={"donate"} onClick={() => showPopup()}/>
 			</div>
 
-			<div className={styles.hamburger}>
+			<div className={styles.hamburger} onClick={() => showNavbar()}>
 				<div className={styles.line} />
 				<div className={styles.line} />
 				<div className={styles.line} />
@@ -31,6 +31,18 @@ const Navbar = () => {
 			<DonationPopup />
 		</div>
 	);
+
+    function showNavbar() {
+        const navlinks = document.querySelector(`.${styles.navlinks}`);
+        const hamburger = document.querySelector(`.${styles.hamburger}`);
+        const donate = document.querySelector(`.${styles.donate}`);
+
+        navlinks.classList.toggle(`${styles.active}`);
+
+        hamburger.classList.toggle(`${styles.hamburgerActive}`);
+
+        // donate.classList.toggle(`${styles.active}`);
+    }
 };
 
 export default Navbar;
