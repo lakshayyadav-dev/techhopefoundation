@@ -66,6 +66,7 @@ h3,h4,h5,h6 {
 
     gap: 2rem;
     text-align: center;
+    z-index: 5;
 }
 .donationPopup > p {
     color: white;
